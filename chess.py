@@ -24,7 +24,6 @@ def main(args):
     font = [pg.font.Font('assets/txtL.ttf', 26),
             pg.font.Font('assets/txtB.ttf', 26),
             pg.font.Font('assets/txtB.ttf', 36)]
-    #iTxt = getText(lang)
     noEsc = True
     game  = Game(args[0], args[1], args[2])
 

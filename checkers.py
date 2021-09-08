@@ -38,7 +38,6 @@ def isCheckingPieceEatable(b, turn, x, y):
                  (b[x][y].value % 0x10 == 3 and piece in getLegMovesRook(  [b[x][y], (y, x)], b, turn)) or
                  (b[x][y].value % 0x10 == 4 and piece in getLegMovesQueen( [b[x][y], (y, x)], b, turn)) or
                  (b[x][y].value % 0x10 == 5 and piece in getLegMovesKing(  [b[x][y], (y, x)], b, turn)))):
-                 print (x, y, "can eat", piece)
                  return True
     return False
 def isMated(b, turn):
@@ -48,9 +47,6 @@ def isMated(b, turn):
             if (b[x][y].value == (0x15 if turn else 0x25)):
                 vb[x][y] = P.E
                 if (len(getLegMovesKing([b[x][y], (y, x)], vb, turn))) : return False
-    for x in range(8): # can I step in the way of the checking piece(s)?
-        for y in range(8):
-            a=0
     menace = False
     for x in range(8): # can the checking piece(s) be eaten?
         for y in range(8):
