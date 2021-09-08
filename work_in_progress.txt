@@ -1,0 +1,43 @@
+[X] main
+[X] Afficher le plateau, les pièces, les noms, les horloges
+[X] Enums de pièces, d'états du jeu, de langue
+[X] Afficher les 36 derniers moves
+[X] Afficher le dernier move fait
+[X] Formater le temps pour les horloges
+[X] Implémenter le malus-handicap
+[X] Check arguments corrects
+[X] Raise arguments erreurs
+[X] Afficher les pièces prises et l'avantage
+[X] Faire le reorder des pièces pour l'avantage
+[X] Logger les coups dans le terminal
+[X] Implémenter les déplacements du pion
+[X] Implémenter les déplacements du cavalier
+[X] Implémenter les déplacements du fou
+[X] Implémenter les déplacements de la tour
+[X] Implémenter les déplacements de la dame
+[X] Implémenter les déplacements du roi
+[X] Détection de la mise en échec
+[X] Afficher l'emplacement précédent de la dernière pièce jouée
+[X] Implémenter la promotion
+[X] Implémenter le roque
+[X] Implémenter le en passant
+[X] Afficher les coups légaux (point au milieu des cases)
+[X] Empêcher les coups illégaux (+ notif échec)
+[X] Détection de la mise en mat
+[X] Détection du pat
+
+[ ] Détection de l'échec et mat
+[ ] Perfectionner le roque (perdre le droit & impossible si échec)
+[ ] Pouvoir changer de promotion
+[ ] Faire une page de menu
+[ ] Faire une page de settings (names time handicap, langue, afficher légaux)
+[ ] Faire une page de help (et la transcrire dans -h)
+[ ] Faire une page de fin
+[ ] Implémenter les coups en deux clics
+[ ] Implémenter l'abandon
+[ ] Logger le détail des coups à préciser (ex : Rba8, R4a5)
+[ ] Rendre les bonus-handicap effectifs
+[ ] Implémenter la sauvegarde
+[ ] Implémenter l'annulation de coup (avec pénalité ?)
+[ ] Implémenter le FEN pour mise en situation ?
+[ ] Implémenter langues ?
