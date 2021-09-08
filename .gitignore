@@ -1,0 +1,44 @@
+# Main binary?
+
+
+# Residual files
+.*
+*~
+*#*
+*.o
+*.hi
+*vgcore*
+*.gc*
+__pycache*
+.vs*
+
+
+# Test files
+work_in_progress
+*.out
+*.tgz
+bootstrap*
+
+
+# Executables, lib & pre-req
+*.sh
+10*
+20*
+30*
+cmake-build-debug
+.idea
+*.slo
+*.lo
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+
+
+# Side files & archives
+*.csv
+*.cabal
+*.yaml.lock
+*?ample*
